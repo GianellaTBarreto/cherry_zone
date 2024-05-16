@@ -1,0 +1,176 @@
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+   
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffdbdb ;
+}
+
+h1{
+    
+    animation: rotacion 3s linear infinite;
+}
+.titulo{
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #751102;
+    font-size: 200px;
+    margin: 345px 0px 1px 0px ;
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+}
+
+.letra {
+    display: inline-block;
+}
+
+@keyframes moverY {
+    0% {
+        transform: translateY(10px);
+    }
+    
+    100% {
+        transform: translateY(0px); /* Movimiento final */
+    }
+}
+
+@keyframes moverX {
+    0% {
+        transform: translateY(0px); /* Movimiento inicial */
+    }
+
+    100% {
+        transform: translateY(10px); /* Movimiento final */
+    }
+}
+
+h2{
+    margin-top: -140px;
+    font-family: "Sacramento", cursive;
+    font-size: 200px;
+    text-align: center;
+    animation: cambio 1s linear infinite;
+}
+@keyframes cambio {
+    0% {
+        color: #c55241;
+    }
+    100% {
+        color: #751102; 
+    }
+}
+.subtit{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #c55241;
+}
+
+.cherry2 {
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0%; /* Alinear la imagen en el centro horizontalmente */
+    transform: translateX(-50%) rotate(0deg);
+    animation: caida 4s linear infinite; /* 3s para la duración de la animación */
+}
+
+
+.cherry{
+    width: 10%;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    transform: translateX(-50%) rotate(0deg);
+    animation: caida 5s linear infinite;
+}
+.cherry3{
+    width: 15%;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    transform: translateX(-50%) rotate(0deg);
+    animation: caida 8s linear infinite;
+}
+.cherry4{
+    width: 26%;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    transform: translateX(-50%) rotate(0deg);
+    animation: caida 3s linear infinite;
+}
+.cherry5 {
+    width: 17%;
+    position: absolute;
+    top: 0;
+    left: 60%; /* Alinear la imagen en el centro horizontalmente */
+    transform: translateX(-50%) rotate(0deg);
+    animation: caida 4s linear infinite; /* 3s para la duración de la animación */
+}
+
+
+.cherry6{
+    width: 25%;
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    transform: translateX(-50%) rotate(0deg);
+    animation: caida 5s linear infinite;
+}
+.cherry7{
+    width:28%;
+    position: absolute;
+    top: 0%;
+    left: 60%;
+    transform: translateX(-50%) rotate(0deg);
+    animation: caida 8s linear infinite;
+}
+.cherry8{
+    width: 8%;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    transform: translateX(-50%) rotate(0deg);
+    animation: caida 3s linear infinite;
+}
+@keyframes caida {
+    0% {
+        transform: translate(-50%, -100%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, 100vh) rotate(360deg); /* 100vh para llegar al final de la pantalla */
+    }
+}
+.cherry, .cherry2, .cherry3, .cherry4, .cherry5, .cherry6, .cherry7, .cherry8{
+    filter: blur(7px);
+    opacity: 0.8;
+}
+.logo{
+    width: 5%;
+    transform: translate(950%, -400%) rotate(-60deg);
+    position: absolute;
+    margin: 0;
+}
